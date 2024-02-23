@@ -1,0 +1,33 @@
+body {
+    padding-left: 60px;
+    max-width: 150ch;
+    font-family: "Helvetica", "sans-serif";
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Georgia", "serif";
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid #C8C8C8;
+}
+th {
+    padding-right: 380px;
+    background-color: #C8C8C8;
+}
+
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+
+td {
+    border: 1px solid #C8C8C8;
+}
+
+blockquote > cite:last-of-type {
+    text-align: right;
+}
