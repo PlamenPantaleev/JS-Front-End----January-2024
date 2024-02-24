@@ -1,0 +1,45 @@
+body {
+    padding: 5em;
+}
+
+img {
+    position: absolute;
+    display: inline-block;
+    padding: 0.5em;
+    border: 2px solid black;
+
+}
+
+article p {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+}
+
+.main-header p {
+    display: inline-block;
+    font-size: 3em;
+    font-family: "Helvetica", "serif";
+    text-transform: uppercase;
+}
+
+.main-header {
+    border-bottom: 2px solid black;
+}
+
+.main-header ul {
+    position: relative;
+    left: 60%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-header li {
+    padding: 10px;
+    display: inline;
+}
+
+.main-header li a {
+    text-decoration: none;
+    color: forestgreen;
+}
