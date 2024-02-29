@@ -1,0 +1,35 @@
+* {
+    height: 100px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: - #EEE;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header, main, aside, footer {
+    padding: 2rem;
+    background-color: #FFF;
+    color: - #000;
+    border-radius: 0.4em;
+    border: 1px solid black;
+}
+header {
+    flex: 1 0 100%;
+}
+
+main {
+    flex: 1 0 60%;
+}
+
+aside {
+    flex: 1 0 40%;
+}
+
+footer {
+    flex: 1 0 100%;
+}

@@ -1,0 +1,27 @@
+body {
+    padding: 5em;
+}
+
+header {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+h1 {
+    flex: 1 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 5px;
+}
+
+li a {
+    color: green;
+    text-decoration: none;
+}
+

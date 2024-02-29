@@ -1,0 +1,27 @@
+span {
+    border: 1px solid black;
+    width: 60%;
+}
+
+div.container {
+    text-align: center;
+    justify-content: space-around;
+    font-family: "Helvetica", "sans-serif";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+    
+}
+
+span.first {
+    order: 1;
+}
+span.second {
+    order: 2;
+}
+span.third {
+    order: 3;
+}
